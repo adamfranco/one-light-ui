@@ -71,6 +71,36 @@
   }
 }
 
+// Styles for regular expression highlighting
+.find-container atom-text-editor[mini]::shadow {
+  .regexp {
+    .escape {
+      color: @find-and-replace-regexp-color-escape;
+      font-weight: @find-and-replace-regexp-weight-escape;
+    }
+    .range{
+      color: @find-and-replace-regexp-color-range;
+      font-weight: @find-and-replace-regexp-weight-range;
+    }
+    .character-class {
+      color: @find-and-replace-regexp-color-character-class;
+      font-weight: @find-and-replace-regexp-weight-character-class;
+    }
+    .set {
+      color: @find-and-replace-regexp-color-set;
+      font-weight: @find-and-replace-regexp-weight-set;
+    }
+    .punctuation {
+      color: @find-and-replace-regexp-color-punctuation;
+      font-weight: @find-and-replace-regexp-weight-punctuation;
+    }
+    .keyword {
+      color: @find-and-replace-regexp-color-keyword;
+      font-weight: @find-and-replace-regexp-weight-keyword;
+    }
+  }
+}
+
 
 // markdown-preview ---------------------------
 
